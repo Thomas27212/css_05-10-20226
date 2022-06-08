@@ -4,7 +4,7 @@ Exercice du jour:
 Consignes
 ==
 
-Par équipes de 3, réalisez ensemble les exercices de la page `rien_que_du_css.html`.
+Par équipes de 2, réalisez ensemble les exercices de la page `rien_que_du_css.html`.
 Il faut uniquement faire du css, aucune manipulation du html est attendue. 
 
 Ensemble, prenez un premier temps pour lire la liste de choses à réaliser. Si certains d'entre vous savent déjà réaliser une des consignes, il est préférable qu'il-elle le laisse à une autre personne de l'équipe. Bien sûr vous pouvez échanger sur le sujet mais l'objectif est que chacun apprenne.
@@ -20,25 +20,3 @@ Chaque membre de l'équipe doit réaliser au moins un commit dans le dépôt. L'
 Fin de cet exercice
 ==
 A votre prochaine pause.
-
-
-Equipes
-==
-
-Equipe A
-===
-* Bastien	
-* Raphael	
-* Jeanne
-
-Equipe B
-===
-* Antony	
-* Yohann	
-* Axel
-
-Equipe C
-===
-* Hugo	
-* Wilfried	
-* Gillian	
