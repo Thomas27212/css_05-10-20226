@@ -15,12 +15,25 @@
 }
 
 #exo_5 {
-    font: normal !important;
-    font-style:normal !important;
-    font-display: normal !important;
+    font: normal ;
+    font-style:normal ;
+    font-display: normal ;
     font-feature-settings: normal;
 }
 
 #exo_6 {
-    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.pnw9RCa6waPfzSOGf-lSowHaFT%3Fpid%3DApi&f=1&ipt=f58f426249267b956a962cc7563bc41eb321ed655ff046a9fc8787c0518da814&ipo=images)
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.nVyIiR_TlktNKg7a4obmQQHaE7%3Fr%3D0%26pid%3DApi&f=1&ipt=ff37c068a1ce59fbc48b5d46c973bf946852d85031725f3c52e99bb86b302ce3&ipo=images);
+}
+
+#exo_7 {
+    display: none;
+}
+
+#exo_8 {
+    font-weight: bold;
+    color: green;
+    background-color: red;
+    border-color:blue ;
+    border-width: 5px;
+    border-style: dashed;
 }
