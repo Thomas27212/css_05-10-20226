@@ -9,16 +9,16 @@
     z-index: -1;
 }
 
-#exo_4 p{
-    position:relative ;
+#exo_4 p {
+    position: relative;
     bottom: 0;
     top: 125px;
 }
 
 #exo_5 {
-    font: normal ;
-    font-style:normal ;
-    font-display: normal ;
+    font: normal;
+    font-style: normal;
+    font-display: normal;
     font-feature-settings: normal;
 }
 
@@ -34,7 +34,7 @@
     font-weight: bold;
     color: green;
     background-color: red;
-    border-color:blue ;
+    border-color: blue;
     border-width: 5px;
     border-style: dashed;
 }
@@ -57,17 +57,15 @@
     left: 0;
     width: 120px;
     height: 120px;
-    background: linear-gradient(
-        45deg,
-        red,
-        orange,
-        yellow,
-        lime,
-        cyan,
-        blue,
-        magenta,
-        red
-    );
+    background: linear-gradient(45deg,
+            red,
+            orange,
+            yellow,
+            lime,
+            cyan,
+            blue,
+            magenta,
+            red);
 
     background-size: 400% 400%;
 
@@ -88,33 +86,43 @@
     0% {
         transform: translate(0, 0);
     }
+
     10% {
         transform: translate(calc(100vw - 120px), calc(30vh - 120px));
     }
+
     20% {
         transform: translate(calc(20vw - 120px), calc(100vh - 120px));
     }
+
     30% {
         transform: translate(calc(100vw - 120px), calc(10vh - 120px));
     }
+
     40% {
         transform: translate(calc(60vw - 120px), calc(100vh - 120px));
     }
+
     50% {
         transform: translate(calc(100vw - 120px), calc(50vh - 120px));
     }
+
     60% {
         transform: translate(calc(30vw - 120px), 0);
     }
+
     70% {
         transform: translate(calc(100vw - 120px), calc(70vh - 120px));
     }
+
     80% {
         transform: translate(0, calc(100vh - 120px));
     }
+
     90% {
         transform: translate(calc(80vw - 120px), 0);
     }
+
     100% {
         transform: translate(0, 0);
     }
@@ -145,4 +153,33 @@
     to {
         background-position: 400% 50%;
     }
+}
+
+#exo_1 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    transform: scaleX(-1);
+}
+
+
+#exo_5 ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+
+#exo_5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    min-height: 100vh;
+
 }
