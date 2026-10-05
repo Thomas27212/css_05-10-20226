@@ -39,6 +39,13 @@
     border-style: dashed;
 }
 
-#exo_9:hover{
-    display: block;
+
+#exo_9 {
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+#exo_9:hover {
+    opacity: 1;
 }
