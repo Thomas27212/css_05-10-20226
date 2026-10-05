@@ -3,7 +3,7 @@
 }
 
 #exo_3 {
-    position: fixed;
+    position:absolute;
     bottom: 0;
     right: 0;
     z-index: -1;
@@ -50,6 +50,9 @@
     opacity: 1;
 }
 
+body{
+    background-image: url(https://i.postimg.cc/yY3qT6pK/PXL-20261005-153234102-2.jpg);
+}
 
 #exo_10 {
     position: fixed;
@@ -82,67 +85,35 @@
         0 0 60px lime;
 
     border-radius: 20%;
+    z-index: 9999;
+    pointer-events: none;
 }
 
+/* Rebond type logo DVD : traverse l'écran et touche les bords */
 @keyframes rebond {
-    0% {
-        transform: translate(0, 0);
-    }
-    10% {
-        transform: translate(calc(100vw - 120px), calc(30vh - 120px));
-    }
-    20% {
-        transform: translate(calc(20vw - 120px), calc(100vh - 120px));
-    }
-    30% {
-        transform: translate(calc(100vw - 120px), calc(10vh - 120px));
-    }
-    40% {
-        transform: translate(calc(60vw - 120px), calc(100vh - 120px));
-    }
-    50% {
-        transform: translate(calc(100vw - 120px), calc(50vh - 120px));
-    }
-    60% {
-        transform: translate(calc(30vw - 120px), 0);
-    }
-    70% {
-        transform: translate(calc(100vw - 120px), calc(70vh - 120px));
-    }
-    80% {
-        transform: translate(0, calc(100vh - 120px));
-    }
-    90% {
-        transform: translate(calc(80vw - 120px), 0);
-    }
-    100% {
-        transform: translate(0, 0);
-    }
+    0%   { transform: translate(0, 0); }
+    10%  { transform: translate(calc(100vw - 120px), calc(30vh - 120px)); }
+    20%  { transform: translate(calc(20vw - 120px), calc(100vh - 120px)); }
+    30%  { transform: translate(calc(100vw - 120px), calc(10vh - 120px)); }
+    40%  { transform: translate(calc(60vw - 120px), calc(100vh - 120px)); }
+    50%  { transform: translate(calc(100vw - 120px), calc(50vh - 120px)); }
+    60%  { transform: translate(calc(30vw - 120px), 0); }
+    70%  { transform: translate(calc(100vw - 120px), calc(70vh - 120px)); }
+    80%  { transform: translate(0, calc(100vh - 120px)); }
+    90%  { transform: translate(calc(80vw - 120px), 0); }
+    100% { transform: translate(0, 0); }
 }
 
+/* Couleurs qui tournent en boucle */
 @keyframes couleurs {
-
-    0% {
-        filter: hue-rotate(0deg) saturate(1);
-    }
-
-    50% {
-        filter: hue-rotate(180deg) saturate(5);
-    }
-
-    100% {
-        filter: hue-rotate(360deg) saturate(1);
-    }
+    0%   { filter: hue-rotate(0deg) saturate(1); }
+    50%  { filter: hue-rotate(180deg) saturate(5); }
+    100% { filter: hue-rotate(360deg) saturate(1); }
 }
 
-
+/* Défilement du dégradé arc-en-ciel */
 @keyframes rotation {
-
-    from {
-        background-position: 0% 50%;
-    }
-
-    to {
-        background-position: 400% 50%;
-    }
+    from { background-position: 0% 50%; }
+    to   { background-position: 400% 50%; }
 }
+
