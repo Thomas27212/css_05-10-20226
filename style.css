@@ -49,3 +49,112 @@
 #exo_9:hover {
     opacity: 1;
 }
+
+#exo_10 {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(
+        45deg,
+        red,
+        orange,
+        yellow,
+        lime,
+        cyan,
+        blue,
+        magenta,
+        red
+    );
+
+    background-size: 400% 400%;
+
+    animation:
+        chaos 2s infinite,
+        couleurs 1s infinite linear,
+        rotation 0.7s infinite linear;
+
+    box-shadow:
+        0 0 20px red,
+        0 0 40px blue,
+        0 0 60px lime;
+
+    border-radius: 20%;
+}
+
+@keyframes chaos {
+
+    0% {
+        transform:
+            translate(0, 0)
+            rotate(0deg)
+            scale(1);
+        border-radius: 20%;
+    }
+
+    20% {
+        transform:
+            translate(150px, -80px)
+            rotate(180deg)
+            scale(1.5);
+        border-radius: 50%;
+    }
+
+    40% {
+        transform:
+            translate(-100px, 120px)
+            rotate(360deg)
+            scale(0.5);
+        border-radius: 10%;
+    }
+
+    60% {
+        transform:
+            translate(200px, 100px)
+            rotate(540deg)
+            scale(1.8);
+        border-radius: 70%;
+    }
+
+    80% {
+        transform:
+            translate(-150px, -100px)
+            rotate(720deg)
+            scale(0.7);
+        border-radius: 0%;
+    }
+
+    100% {
+        transform:
+            translate(0, 0)
+            rotate(900deg)
+            scale(1);
+        border-radius: 20%;
+    }
+}
+
+
+@keyframes couleurs {
+
+    0% {
+        filter: hue-rotate(0deg) saturate(1);
+    }
+
+    50% {
+        filter: hue-rotate(180deg) saturate(5);
+    }
+
+    100% {
+        filter: hue-rotate(360deg) saturate(1);
+    }
+}
+
+
+@keyframes rotation {
+
+    from {
+        background-position: 0% 50%;
+    }
+
+    to {
+        background-position: 400% 50%;
+    }
+}
