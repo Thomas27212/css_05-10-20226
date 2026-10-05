@@ -1,5 +1,26 @@
 #exo_2 {
+    overflow: hidden;
 }
 
 #exo_3 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#exo_4 p{
+    position:relative ;
+    bottom: 0;
+    top: 125px;
+}
+
+#exo_5 {
+    font: normal !important;
+    font-style:normal !important;
+    font-display: normal !important;
+    font-feature-settings: normal;
+}
+
+#exo_6 {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.pnw9RCa6waPfzSOGf-lSowHaFT%3Fpid%3DApi&f=1&ipt=f58f426249267b956a962cc7563bc41eb321ed655ff046a9fc8787c0518da814&ipo=images)
 }
